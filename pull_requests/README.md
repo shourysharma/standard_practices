@@ -14,7 +14,7 @@ git clone <repository-url>
 **Step 3: Create a New Branch**
 Create a new branch for your changes. The branch name should be descriptive and related to the feature or bug fix you are working on. For example:
 ```
-git checkout -b feat/new-feature
+git checkout -b issue#<issue-number>
 ```
 
 **Step 4: Make Changes to the Code**
@@ -26,7 +26,7 @@ Commit your changes using meaningful and conventional commit messages, as descri
 **Step 6: Push the Branch**
 Push the branch with your changes to your forked repository on GitHub:
 ```
-git push origin feat/new-feature
+git push origin issue#<issue-number>
 ```
 
 **Step 7: Create the Pull Request**
@@ -36,7 +36,7 @@ Navigate to the original repository on GitHub and click on the "New Pull Request
 Select the base branch to which you want to merge your changes. Usually, this is the default branch of the original repository, such as `main` or `master`.
 
 **Step 9: Choose the Compare Branch**
-Choose the compare branch, which is the branch you created earlier with your changes, such as `feat/new-feature`.
+Choose the compare branch, which is the branch you created earlier with your changes, such as `issue#<issue-number>`.
 
 **Step 10: Write the Pull Request Title**
 Write a descriptive and concise title for your pull request. The title should clearly summarize the changes you are proposing.
